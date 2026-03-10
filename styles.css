@@ -1,0 +1,103 @@
+/* Fuente externa (Montserrat) */
+@font-face {
+    font-family: 'LetraExterna';
+    src: url('fonts/Montserrat.ttf') format('truetype');
+}
+
+/* Estilo general */
+body {
+    font-family: 'LetraExterna', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #293344;
+    color: white;
+    padding: 15px 30px;
+    height: 35px;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Menu */
+.menu-usuario a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.menu-usuario a:hover {
+    color: #F80000;
+    /* rojo Oracle */
+}
+
+/* NAVBAR h*/
+nav {
+    background-color: #2d3748;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Botones menú */
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    transition: background 0.3s;
+}
+
+/* Hover */
+nav ul li a:hover {
+    background-color: #F80000;
+    color: white;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* FOOTER */
+footer {
+    background-color: #293344;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Hecho por Rodrigo */
