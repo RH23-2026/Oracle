@@ -1,0 +1,162 @@
+/* FUENTE EXTERNA Montserrat */ /* HECHO POR RODRIGO */
+/* Importa la fuente Montserrat desde la carpeta fonts */
+@font-face {
+    font-family: 'LetraExterna';
+    src: url('fonts/Montserrat.ttf') format('truetype');
+}
+
+/* RESET GENERAL */
+/* Elimina márgenes y paddings por defecto del navegador y asegura que el tamaño incluya borde y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general de la página */
+body {
+    font-family: 'LetraExterna', Arial, sans-serif; /* Fuente principal */
+    background-color: #ECF0F1; /* Fondo gris claro */
+    color: #333; /* Color de texto principal */
+}
+
+/* HEADER */
+/* Contenedor superior con logo y menú de usuario */
+header {
+    display: flex; /* Coloca elementos en línea */
+    justify-content: space-between; /* Espacio entre logo y menú */
+    align-items: center; /* Centra verticalmente */
+    background-color: #293344; /* Color de fondo del header */
+    color: white;
+    padding: 15px 30px;
+    height: 35px;
+}
+
+/* LOGO */
+/* Contenedor del logo y posible texto */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre elementos del logo */
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* MENU USUARIO */
+/* Enlaces como login, perfil, etc. */
+.menu-usuario a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* Efecto hover del menú */
+.menu-usuario a:hover {
+    color: #F80000; /* rojo Oracle */
+}
+
+/* NAVBAR */
+/* Barra de navegación principal */
+nav {
+    background-color: #2d3748;
+}
+
+nav ul {
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex; /* Coloca el menú en horizontal */
+    justify-content: center; /* Centra los botones */
+}
+
+/* Botones del menú */
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    transition: background 0.3s; /* Animación suave */
+}
+
+/* Efecto hover en los botones */
+nav ul li a:hover {
+    background-color: #F80000;
+    color: white;
+}
+
+/* HERO */
+/* Sección principal de presentación de la página */
+.hero {
+    padding: 100px 10%;
+    text-align: center;
+    background: #eeeeee;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* CONTENIDO PRINCIPAL */
+/* Zona central donde va la información */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Tarjeta de contenido */
+section {
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1); /* Sombra ligera */
+}
+
+/* GRID SERVICIOS */
+/* Sistema de columnas responsive para tarjetas */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* Tarjeta individual dentro del grid */
+.card {
+    background: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+
+/* CTA */
+/* Sección de llamada a la acción */
+.cta {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 80px 10%;
+}
+
+/* FOOTER */
+/* Pie de página con información general */
+footer {
+    background-color: #293344;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Copyright inferior */
+.copy {
+    background: #000;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* HECHO POR RODRIGO */

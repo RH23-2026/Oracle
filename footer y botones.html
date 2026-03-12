@@ -1,0 +1,202 @@
+<footer class="site-footer">
+  <style>
+    .site-footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  padding: 60px 20px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+.logo {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.footer-column h3,
+.footer-newsletter h3 {
+  margin-bottom: 15px;
+  color: white;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+
+.footer-column a:hover {
+  color: #38bdf8;
+}
+
+.social-media {
+  display: flex;
+  gap: 12px;
+}
+
+.social-media a {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-media a:hover {
+  background: #38bdf8;
+}
+
+.newsletter-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  flex: 1;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-form button {
+  padding: 10px 15px;
+  border: none;
+  background: #38bdf8;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.newsletter-form button:hover {
+  background: #0ea5e9;
+}
+
+.footer-bottom {
+  border-top: 1px solid #334155;
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-legal a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #94a3b8;
+}
+
+.footer-legal a:hover {
+  color: #38bdf8;
+}
+  </style>
+
+  <div class="footer-container">
+
+    <!-- Logo + descripción -->
+    <div class="footer-brand">
+      <h2 class="logo">TechNova</h2>
+      <p>
+        Desarrollamos soluciones tecnológicas innovadoras para empresas
+        y profesionales del mundo digital.
+      </p>
+
+      <div class="social-media">
+
+        <a href="#" aria-label="Twitter">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="#" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="#" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="#" aria-label="YouTube">
+          <i class="fab fa-youtube"></i>
+        </a>
+
+      </div>
+    </div>
+
+
+    <!-- Enlaces empresa -->
+    <div class="footer-column">
+      <h3>Empresa</h3>
+      <ul>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Carreras</a></li>
+      </ul>
+    </div>
+
+
+    <!-- Recursos -->
+    <div class="footer-column">
+      <h3>Recursos</h3>
+      <ul>
+        <li><a href="#">Documentación</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Soporte</a></li>
+        <li><a href="#">API</a></li>
+      </ul>
+    </div>
+
+
+    <!-- Newsletter -->
+    <div class="footer-newsletter">
+      <h3>Suscríbete</h3>
+      <p>Recibe noticias y actualizaciones tecnológicas.</p>
+
+      <form class="newsletter-form">
+        <input type="email" placeholder="Tu email" required>
+        <button type="submit">Suscribirse</button>
+      </form>
+    </div>
+
+  </div>
+
+
+  <!-- Línea inferior -->
+  <div class="footer-bottom">
+
+    <p>© 2026 TechNova. Todos los derechos reservados.</p>
+
+    <div class="footer-legal">
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+      <a href="#">Cookies</a>
+    </div>
+
+  </div>
+
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
