@@ -11,14 +11,15 @@
 <link rel="stylesheet" href="estilos.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-
 </head>
 
 <body>
 
 <header>
 
-<div class="logo">Oracle</div>
+<div class="logo">
+<img src="img/oracle-logo.png" alt="Oracle Logo">
+</div>
 
 <h1>Oracle Business</h1>
 
@@ -28,7 +29,6 @@
 </div>
 
 </header>
-
 
 <nav>
 
@@ -41,7 +41,6 @@
 </ul>
 
 </nav>
-
 
 <main>
 
@@ -59,34 +58,132 @@
 
 </section>
 
+
+<!-- ============================= -->
+<!-- FORMULARIO DE CITA TELEFÓNICA -->
+<!-- ============================= -->
+
+<section class="cita">
+
+<h2>Solicitar una cita telefónica</h2>
+
+<p>Completa el siguiente formulario y nos pondremos en contacto contigo para confirmar la cita.</p>
+
+<form class="form-cita">
+
+<div class="grupo-form">
+<label for="nombre">Nombre completo</label>
+<input type="text" id="nombre" placeholder="Tu nombre" required>
+</div>
+
+<div class="grupo-form">
+<label for="telefono">Teléfono</label>
+<input type="tel" id="telefono" placeholder="+34 600 000 000" required>
+</div>
+
+<div class="grupo-form">
+<label for="email">Correo electrónico</label>
+<input type="email" id="email" placeholder="Tu email" required>
+</div>
+
+<div class="grupo-form">
+<label for="ciudad">Ciudad</label>
+<input type="text" id="ciudad" placeholder="Madrid, Barcelona..." required>
+</div>
+
+<div class="grupo-form">
+<label for="direccion">Dirección</label>
+<input type="text" id="direccion" placeholder="Calle, número, piso..." required>
+</div>
+
+<div class="grupo-form">
+<label for="fecha">Fecha deseada</label>
+<input type="date" id="fecha" required>
+</div>
+
+<div class="grupo-form">
+<label for="hora">Hora deseada</label>
+<input type="time" id="hora" required>
+</div>
+
+<div class="grupo-form">
+<label for="motivo">Motivo de la cita</label>
+<textarea id="motivo" rows="4" placeholder="Describe brevemente el motivo..." required></textarea>
+</div>
+
+<button type="submit" class="btn-cita">Solicitar cita</button>
+
+</form>
+
+</section>
+
 </main>
 
+<footer class="footer">
+  <div class="footer-container">
 
-<footer>
+    <div class="footer-brand">
+      <h2>Oracle</h2>
+      <p>Desarrollamos soluciones tecnológicas innovadoras para empresas y profesionales del mundo digital.</p>
 
-<p>© 2026 Oracle Business Solutions</p>
+      <div class="social-icons">
+        <a href="#"><i class="icon-x"></i></a>
+        <a href="#"><i class="icon-github"></i></a>
+        <a href="#"><i class="icon-linkedin"></i></a>
+        <a href="#"><i class="icon-youtube"></i></a>
+      </div>
+    </div>
 
-<div class="redes">
+    <div class="footer-links">
+      <h3>Empresa</h3>
+      <ul>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Carreras</a></li>
+      </ul>
+    </div>
 
+    <div class="footer-links">
+      <h3>Recursos</h3>
+      <ul>
+        <li><a href="#">Documentación</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Soporte</a></li>
+        <li><a href="#">API</a></li>
+      </ul>
+    </div>
+<div class="footer-newsletter">
+      <h3>Suscríbete</h3>
+      <p>Recibe noticias y actualizaciones tecnológicas.</p>
+      <form>
+        <input type="email" placeholder="Tu email">
+        <button type="submit">Suscribirse</button>
+      </form>
+    </div>
 
+  </div>
 
-<p>© 2026 Oracle Business Solutions</p>
+  <div class="redes">
 
-<div class="redes">
+    <a href="https://twitter.com/oracle" target="_blank" aria-label="X">
+        <i class="fab fa-x-twitter"></i>
+    </a>
 
-<a href="https://www.facebook.com/oracle" target="_blank">Facebook</a>
+    <a href="https://github.com/oracle" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
 
-<a href="https://twitter.com/oracle" target="_blank">Twitter</a>
+    <a href="https://www.linkedin.com/company/oracle/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
 
-<a href="https://www.linkedin.com/company/oracle/" target="_blank">LinkedIn</a>
-
-<a href="https://www.instagram.com/oracle/" target="_blank">Instagram</a>
+    <a href="https://www.youtube.com/@Oracle" target="_blank" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+    </a>
 
 </div>
-
-
-</div>
-
+  </div>
 </footer>
 
 </body>

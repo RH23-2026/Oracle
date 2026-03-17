@@ -100,4 +100,362 @@ footer {
     margin-top: 40px;
 }
 
-/* Hecho por Rodrigo */
+
+
+/* Fuente externa */
+@font-face {
+    font-family: 'LetraExterna';
+    src: url('fonts/Montserrat.ttf') format('truetype');
+}
+
+/* General */
+body {
+    font-family: 'LetraExterna', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #293344;
+    color: white;
+    padding: 15px 30px;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+
+/* Menu usuario */
+
+.menu-usuario a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menu-usuario a:hover {
+    color: #F80000;
+}
+
+
+/* NAVBAR */
+
+nav {
+    background-color: #2d3748;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Botones menú */
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #F80000;
+}
+
+
+/* MAIN */
+
+main {
+    padding: 40px;
+}
+
+
+/* SECCIONES */
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+
+/* TITULOS */
+
+h1 {
+    color: #293344;
+}
+
+h2 {
+    color: #293344;
+}
+
+
+/* LISTAS */
+
+ul {
+    text-align: left;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #293344;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Redes sociales */
+
+.redes a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    color: #F80000;
+}
+
+/* ===== FOOTER GENERAL ===== */
+.footer {
+  background: #0d0d0d;
+  color: #ffffff;
+  padding: 60px 20px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ===== BRAND ===== */
+.footer-brand h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  color: #cccccc;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+ 
+.social-icons a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 20px;
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+/* ===== LINKS ===== */
+.footer-links h3,
+.footer-newsletter h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 20px;
+  color: #4da3ff;
+  text-decoration: none;
+}
+
+/* ===== LINKS ===== */
+.footer-links h3,
+.footer-newsletter h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #4da3ff;
+}
+
+/* ===== NEWSLETTER ===== */
+.footer-newsletter p {
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+.footer-newsletter form {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-newsletter input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-newsletter button {
+  padding: 10px 15px;
+  background: #4da3ff;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.footer-newsletter button:hover {
+  background: #1e7fe6;
+}
+
+/* ===== BOTTOM ===== */
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+  color: #aaaaaa;
+}
+
+.footer-legal a {
+  margin: 0 10px;
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-legal a:hover {
+  color: #4da3ff;
+}
+
+/* ===== FORMULARIO DE CITA ===== */
+
+.cita {
+  background: #f4f4f4;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+
+.cita h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.cita p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form-cita {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.grupo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-form label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.grupo-form input,
+.grupo-form textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.grupo-form input:focus,
+.grupo-form textarea:focus {
+  border-color: #0056d6;
+  outline: none;
+}
+
+.btn-cita {
+  grid-column: 1 / -1;
+  padding: 14px;
+  background: #0056d6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-cita:hover {
+  background: #003c9e;
+}
