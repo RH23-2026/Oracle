@@ -460,3 +460,307 @@ footer {
 .btn-cita:hover {
   background: #003c9e;
 }
+
+/* ===== HERO ===== */
+.crm-hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.crm-hero h1 {
+  font-size: 40px;
+  color: #ff0000;
+}
+
+.crm-hero p {
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+/* ===== CARDS ===== */
+.crm-funciones {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  color: #fff;
+  padding: 25px;
+  width: 220px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+
+/* 🔥 HOVER BONITO */
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: #ff0000;
+}
+
+.card:hover i {
+  color: #fff;
+}
+
+/* ===== BENEFICIOS ===== */
+.crm-beneficios {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.beneficios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.beneficio {
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.beneficio:hover {
+  background: #ff0000;
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER MEJORADO ===== */
+.footer {
+  background: #0b1a2b;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer h2 {
+  color: #4cc9f0;
+}
+
+.footer-links ul li a {
+  color: #ccc;
+  transition: 0.3s;
+}
+
+/* 🔥 HOVER LINKS */
+.footer-links ul li a:hover {
+  color: #4cc9f0;
+  padding-left: 5px;
+}
+
+.footer-newsletter input {
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.footer-newsletter button {
+  background: #4cc9f0;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #000;
+  transition: 0.3s;
+}
+
+/* HOVER BOTÓN */
+.footer-newsletter button:hover {
+  background: #ff0000;
+  color: #fff;
+}
+
+/* ICONOS REDES */
+.redes a {
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+/* HOVER ICONOS */
+.redes a:hover {
+  color: #ff0000;
+  transform: scale(1.2);
+}
+
+/* ===== HERO ===== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  color: #ff0000;
+}
+
+.hero-text p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff0000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+/* HOVER BOTÓN */
+.btn:hover {
+  background: #000;
+}
+
+.hero-img img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* ===== SERVICIOS ===== */
+.servicios {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  color: white;
+  padding: 25px;
+  width: 220px;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+
+/* 🔥 HOVER PRO */
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: linear-gradient(135deg, #ff0000, #990000);
+}
+
+.card:hover i {
+  color: white;
+}
+
+/* ===== INFO ===== */
+.info {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.info p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===== HERO MAPA ===== */
+.mapa-hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.mapa-hero h1 {
+  font-size: 40px;
+  color: #ff0000;
+}
+
+.mapa-hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* ===== GRID ===== */
+.mapa-contenido {
+  padding: 40px 20px;
+}
+
+.mapa-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* ===== CARDS ===== */
+.mapa-card {
+  background: #111;
+  color: white;
+  width: 220px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.mapa-card i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+
+/* 🔥 HOVER PRO */
+.mapa-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: linear-gradient(135deg, #ff0000, #990000);
+}
+
+.mapa-card:hover i {
+  color: white;
+}
+
+.mapa-card h3 {
+  margin-top: 10px;
+}
